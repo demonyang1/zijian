@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone -b master https://gitlab.com/ZXCVB048013/hello.git ~/hello
+          git clone -b master https://gitlab.com/ZXCVB048013/hello.git ~/scripts
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
